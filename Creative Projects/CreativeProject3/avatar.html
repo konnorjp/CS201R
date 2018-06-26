@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Madlib</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+<script src="avatar.js"></script>
+<link rel="stylesheet" type="text/css" href="avatar.css">
+  <meta charset="utf-8">
+<style>
+div {
+	text-align: center;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+</style>
+</head>
+<body>
+  <div ng-app='app' ng-controller='mainCtrl'>
+    <h1>Your Life, Your Story</h1>
+	<h2>Create a madlib story!<br>Make it interesting!</h2>
+	<p>For a lame madlib story, click button with blank fields</p>
+    <form name='userForm' ng-submit='addNew(userForm)'>
+      <input placeholder='Your Name' ng-model='userForm.unicorn' />
+      <input placeholder='Name' ng-model='userForm.nounBig' autofocus/>
+      <input placeholder='Adjective' ng-model='userForm.url'/>
+      <input placeholder='Adverb' ng-model='userForm.email'/>
+      <input placeholder='Another Noun' ng-model='userForm.secondnoun'/>
+      <button type='submit'>Make Story</button>
+    </form>
+      <p ng-repeat='user in users'>
+	<avatar user='user'/>
+	</p>
+  </div>
+<img src = "http://www.photofurl.com/wp-content/uploads/2011/02/playing-friends-wallpaper.jpg" top = '35px'>
+</body>
+</html>

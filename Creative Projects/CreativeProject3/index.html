@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>News</title>
+
+
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+            <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+            <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.js"></script>
+
+            <script src="app.js"></script>
+            <script src="avatar.js"></script>
+            <style>
+                body {
+                    background-color:#a8a8a8;
+                }
+                .post-area {
+                    height: 300px;
+                    width: 700px;
+                    border-width:5px;
+                    border-style:inset;
+                    background-color: white;
+                }
+            .postithere {
+                padding:10px;
+                background-color:white;
+                border-style: solid;
+                border-width: 2px;
+            }
+            input {
+              margin:5px;
+            }
+            #view-story {
+              padding-left: 20%;
+            }
+            </style>
+
+    </head>
+    <body ng-app="News">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <ui-view></ui-view>
+            </div>
+        </div>
+        <script type="text/ng-template" id="/home.html">
+            <div class="page-header">
+            <h1>Your Stories</h1>
+            </div>
+            <div class="post-area">
+            <div class="postithere"
+            <div ng-repeat="post in posts | orderBy:'-upvotes'">
+            <span style="font-size:20px; margin-left:10px;">
+            {{post.title}}
+            <span>
+            <a id="view-story" href="#/posts/{{posts.indexOf(post)}}">View your story</a>
+            </span>
+          </div>
+        </div>
+            </div>
+
+            <h3>Create a story about yourself</h3>
+            <div class="form-group">
+            <form name='userForm' style="margin-top:15px;">
+            <input type="text" class="form-control" placeholder='Title of Story' ng-model='userForm.glava' autofocus/>
+            <input type="text" class="form-control" placeholder='Name' ng-model='userForm.nounBig'/>
+            <input type="text" class="form-control" placeholder='Adjective' ng-model='userForm.url'/>
+            <input type="text" class="form-control" placeholder='Adverb' ng-model='userForm.email'/>
+            <input type="text" class="form-control" placeholder='Another Noun' ng-model='userForm.secondnoun'/>
+            <input type="radio" name="type" value="Alligator" ng-model='userForm.animal' checked> Alligator Story<br>
+            <input type="radio" name="type" value="Gorilla" ng-model='userForm.animal'> Gorilla Story<br>
+            <input type="radio" name="type" value="Werewolf" ng-model='userForm.animal'> Werewolf Story<br>
+            <button style="margin-top:5px;" type='submit' ng-click='addPost(userForm)' class="btn btn-primary">Make Story</button>
+            </form>
+            </script>
+
+        <script type="text/ng-template" id="/posts.html">
+            <div class="page-header">
+            <h3>
+            {{post.title}}
+            </h3>
+            </div>
+            <span style="font-size:20px; margin-left:10px;">
+            <p id="story-area">{{post.storyArea}}</p>
+            </span>
+            </div>
+            <h3>The End</h3>
+            <a href="#/home">Return</a>
+            </script>
+    </body>
+</html>
