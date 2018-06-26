@@ -1,0 +1,73 @@
+nohup: ignoring input
+Connection established to mongodb://localhost:27017/pokemon
+[0mGET / [36m304 [0m8.665 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m3.007 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.447 ms - -[0m
+In Pokemon
+Query Worked
+[ { _id: 58d1c101ede5c827df038e60,
+    name: 'Pikachu',
+    avatarUrl: 'http://rs795.pbsrc.com/albums/yy232/PixKaruumi/Pokemon%20Pixels/Pikachu_Icon__free__by_Aminako.gif~c200' },
+  { _id: 58d1c101ede5c827df038e61,
+    name: 'Charmander',
+    avatarUrl: 'http://24.media.tumblr.com/tumblr_ma0tijLFPg1rfjowdo1_500.gif' },
+  { _id: 58d1c101ede5c827df038e62,
+    name: 'Mew',
+    avatarUrl: 'http://media3.giphy.com/media/J5JrPT8r1xGda/giphy.gif' },
+  { _id: 58d1c101ede5c827df038e63,
+    name: 'Cubone',
+    avatarUrl: 'http://rs1169.pbsrc.com/albums/r511/nthndo/tumblr_ljsx6dPMNm1qii50go1_400.gif~c200' },
+  { _id: 58d1c101ede5c827df038e64,
+    name: 'Cleffa',
+    avatarUrl: 'http://media1.giphy.com/media/pTh2K2xTJ1nag/giphy.gif' },
+  { _id: 58d1c101ede5c827df038e65,
+    name: 'Gengar',
+    avatarUrl: 'https://s-media-cache-ak0.pinimg.com/originals/7e/3b/67/7e3b67c53469cc4302035be70a7f2d60.gif' },
+  { _id: 58d1c113ede5c827df038e66,
+    name: 'Charizard',
+    avatarUrl: 'http://rs344.pbsrc.com/albums/p343/gotta_catch_em_all/Original%20151/johnc1330.gif~c200' } ]
+[0mGET /pokemon [32m200 [0m13.840 ms - 999[0m
+[0mGET / [36m304 [0m0.612 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.519 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.036 ms - -[0m
+In Pokemon
+Query Worked
+[ { _id: 58d1c101ede5c827df038e60,
+    name: 'Pikachu',
+    avatarUrl: 'http://rs795.pbsrc.com/albums/yy232/PixKaruumi/Pokemon%20Pixels/Pikachu_Icon__free__by_Aminako.gif~c200' },
+  { _id: 58d1c101ede5c827df038e61,
+    name: 'Charmander',
+    avatarUrl: 'http://24.media.tumblr.com/tumblr_ma0tijLFPg1rfjowdo1_500.gif' },
+  { _id: 58d1c101ede5c827df038e62,
+    name: 'Mew',
+    avatarUrl: 'http://media3.giphy.com/media/J5JrPT8r1xGda/giphy.gif' },
+  { _id: 58d1c101ede5c827df038e63,
+    name: 'Cubone',
+    avatarUrl: 'http://rs1169.pbsrc.com/albums/r511/nthndo/tumblr_ljsx6dPMNm1qii50go1_400.gif~c200' },
+  { _id: 58d1c101ede5c827df038e64,
+    name: 'Cleffa',
+    avatarUrl: 'http://media1.giphy.com/media/pTh2K2xTJ1nag/giphy.gif' },
+  { _id: 58d1c101ede5c827df038e65,
+    name: 'Gengar',
+    avatarUrl: 'https://s-media-cache-ak0.pinimg.com/originals/7e/3b/67/7e3b67c53469cc4302035be70a7f2d60.gif' },
+  { _id: 58d1c113ede5c827df038e66,
+    name: 'Charizard',
+    avatarUrl: 'http://rs344.pbsrc.com/albums/p343/gotta_catch_em_all/Original%20151/johnc1330.gif~c200' } ]
+[0mGET /pokemon [36m304 [0m3.274 ms - -[0m
+[0mGET / [32m200 [0m84.881 ms - 1058[0m
+[0mGET /javascripts/app.js [32m200 [0m7.148 ms - 947[0m
+[0mGET /stylesheets/style.css [32m200 [0m6.148 ms - 548[0m
+In Pokemon
+{ MongoError: Topology was destroyed
+    at nextFunction (/home/bitnami/CS201/act10/angularNodeMongoPoki/node_modules/mongodb-core/lib/cursor.js:540:25)
+    at Cursor.next [as _next] (/home/bitnami/CS201/act10/angularNodeMongoPoki/node_modules/mongodb-core/lib/cursor.js:692:3)
+    at fetchDocs (/home/bitnami/CS201/act10/angularNodeMongoPoki/node_modules/mongodb/lib/cursor.js:856:10)
+    at toArray (/home/bitnami/CS201/act10/angularNodeMongoPoki/node_modules/mongodb/lib/cursor.js:883:3)
+    at Cursor.toArray (/home/bitnami/CS201/act10/angularNodeMongoPoki/node_modules/mongodb/lib/cursor.js:836:44)
+    at /home/bitnami/CS201/act10/angularNodeMongoPoki/routes/index.js:48:21
+    at Layer.handle [as handle_request] (/home/bitnami/CS201/act10/angularNodeMongoPoki/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/bitnami/CS201/act10/angularNodeMongoPoki/node_modules/express/lib/router/route.js:100:13)
+    at Route.dispatch (/home/bitnami/CS201/act10/angularNodeMongoPoki/node_modules/express/lib/router/route.js:81:3)
+    at Layer.handle [as handle_request] (/home/bitnami/CS201/act10/angularNodeMongoPoki/node_modules/express/lib/router/layer.js:82:5) name: 'MongoError', message: 'Topology was destroyed' }
+[0mGET /favicon.ico [33m404 [0m318.118 ms - 1293[0m
+[0mGET /pokemon [32m- [0m- ms - -[0m
