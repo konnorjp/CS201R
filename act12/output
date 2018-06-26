@@ -1,0 +1,16 @@
+nohup: ignoring input
+[0mGET / [36m304 [0m12.480 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m2.656 ms - -[0m
+[0mGET / [36m304 [0m0.683 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.472 ms - -[0m
+[0mGET / [32m200 [0m6.023 ms - 1136[0m
+[0mGET /javascripts/script.js [32m200 [0m1.873 ms - 981[0m
+[0mGET /favicon.ico [33m404 [0m245.840 ms - 1083[0m
+[0mGET / [36m304 [0m10.547 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.742 ms - -[0m
+[0mGET / [32m200 [0m7.962 ms - 1136[0m
+[0mGET /javascripts/script.js [32m200 [0m3.008 ms - 981[0m
+[0mGET /favicon.ico [33m404 [0m49.389 ms - 1083[0m
+[0mGET / [32m200 [0m6.026 ms - 1136[0m
+[0mGET /javascripts/script.js [32m200 [0m6.907 ms - 981[0m
+[0mGET /favicon.ico [33m404 [0m56.524 ms - 1083[0m
