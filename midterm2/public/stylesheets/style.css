@@ -1,0 +1,71 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  width:1000px;
+}
+
+.row {
+	width:1000px;
+}
+
+a {
+	color: #00B7FF;
+}
+
+.cars {
+	margin-bottom:50px;
+}
+
+img {
+	display:block;
+}
+
+button  {
+	color: black !important;
+  font-size: 16px;
+  background-color:white;
+  padding: 7px;
+  margin:10px;
+}
+
+.left {
+	display:inline-block;
+	margin-right: 20px;
+	margin-left: 40px;
+}
+
+.left img {
+	max-width:250px;
+	max-height:300px;
+}
+
+.right {
+	display:inline-block;
+	position:relative;
+	vertical-align: top;	
+}
+
+.info {
+	display: block;
+	margin: 20px;
+}
+
+.talkbutton {
+	margin:10px;
+	text-align:center;
+}
+
+.talkbutton button {
+	margin-right:10px;
+	margin-left:10px;
+}
+
+.models, .makes, .upvotes {
+	display: inline;
+}
+
+.input__label-content--kuro {
+	font-size: 14px !important;
+	margin:0;
+
+}	

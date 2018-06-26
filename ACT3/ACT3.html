@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Utah Cities</title>
+  <meta charset="UTF-8">
+  <style type="text/css">
+    #city-list li { display: none;}
+    #city-list li.match { display: list-item}
+  </style>
+</head>
+<body>
+  <h1>Utah Towns and Cities</h1>
+  <input type="text" id="prefix">
+  <ul id="city-list">
+    <li>Alpine</li>
+    <li>Altamont</li>
+    <li>Alton</li>
+    <li>Altonah</li>
+    <li>American Fork</li>
+    <li>Aneth</li>
+    <li>Annabella</li>
+    <li>Antimony</li>
+    <li>Aurora</li>
+    <li>Axtell</li>
+    <li>Bear River City</li>
+    <li>Beaver</li>
+    <li>Beryl</li>
+    <li>Bicknell</li>
+    <li>Bingham Canyon</li>
+    <li>Blanding</li>
+    <li>Bluebell</li>
+    <li>Bluff</li>
+    <li>Bonanza</li>
+    <li>Boulder</li>
+    <li>Bountiful</li>
+    <li>Brian Head</li>
+    <li>Brigham City</li>
+    <li>Bryce</li>
+    <li>Bryce Canyon</li>
+    <li>Cache Junction</li>
+    <li>Cannonville</li>
+    <li>Castle Dale</li>
+    <li>Cedar City</li>
+    <li>Cedar Valley</li>
+    <li>Centerfield</li>
+    <li>Centerville</li>
+    <li>Central</li>
+    <li>Chester</li>
+    <li>Circleville</li>
+    <li>Cisco</li>
+    <li>Clarkston</li>
+    <li>Clawson</li>
+    <li>Clearfield</li>
+    <li>Cleveland</li>
+    <li>Clinton</li>
+    <li>Coalville</li>
+    <li>Collinston</li>
+    <li>Corinne</li>
+    <li>Cornish</li>
+    <li>Croydon</li>
+    <li>Dammeron Valley</li>
+    <li>Delta</li>
+    <li>Deweyville</li>
+    <li>Draper</li>
+    <li>Duchesne</li>
+    <li>Duck Creek Village</li>
+    <li>Dugway</li>
+    <li>Dutch John</li>
+    <li>East Carbon</li>
+    <li>Echo</li>
+    <li>Eden</li>
+    <li>Elberta</li>
+    <li>Elmo</li>
+    <li>Elsinore</li>
+    <li>Emery</li>
+    <li>Enterprise</li>
+    <li>Ephraim</li>
+    <li>Escalante</li>
+    <li>Eureka</li>
+    <li>Fairview</li>
+    <li>Farmington</li>
+    <li>Fayette</li>
+    <li>Ferron</li>
+    <li>Fielding</li>
+    <li>Fillmore</li>
+    <li>Fort Duchesne</li>
+    <li>Fountain Green</li>
+    <li>Fruitland</li>
+    <li>Garden City</li>
+    <li>Garland</li>
+    <li>Garrison</li>
+    <li>Glendale</li>
+    <li>Glenwood</li>
+    <li>Goshen</li>
+    <li>Grantsville</li>
+    <li>Green River</li>
+    <li>Greenville</li>
+    <li>Greenwich</li>
+    <li>Grouse Creek</li>
+    <li>Gunlock</li>
+    <li>Gunnison</li>
+    <li>Gusher</li>
+    <li>Hanksville</li>
+    <li>Hanna</li>
+    <li>Hatch</li>
+    <li>Heber City</li>
+    <li>Helper</li>
+    <li>Henefer</li>
+    <li>Henrieville</li>
+    <li>Hiawatha</li>
+    <li>Hildale</li>
+    <li>Hill AFB</li>
+    <li>Hinckley</li>
+    <li>Holden</li>
+    <li>Honeyville</li>
+    <li>Hooper</li>
+    <li>Howell</li>
+    <li>Huntington</li>
+    <li>Huntsville</li>
+    <li>Hurricane</li>
+    <li>Hyde Park</li>
+    <li>Hyrum</li>
+    <li>Ibapah</li>
+    <li>Ivins</li>
+    <li>Jensen</li>
+    <li>Joseph</li>
+    <li>Junction</li>
+    <li>Kamas</li>
+    <li>Kanab</li>
+    <li>Kanarraville</li>
+    <li>Kanosh</li>
+    <li>Kaysville</li>
+    <li>Kenilworth</li>
+    <li>Kingston</li>
+    <li>Koosharem</li>
+    <li>La Sal</li>
+    <li>La Verkin</li>
+    <li>Lake Powell</li>
+    <li>Laketown</li>
+    <li>Lapoint</li>
+    <li>Layton</li>
+    <li>Leamington</li>
+    <li>Leeds</li>
+    <li>Lehi</li>
+    <li>Levan</li>
+    <li>Lewiston</li>
+    <li>Lindon</li>
+    <li>Loa</li>
+    <li>Logan</li>
+    <li>Lyman</li>
+    <li>Lynndyl</li>
+    <li>Magna</li>
+    <li>Manila</li>
+    <li>Manti</li>
+    <li>Mantua</li>
+    <li>Mapleton</li>
+    <li>Marysvale</li>
+    <li>Mayfield</li>
+    <li>Meadow</li>
+    <li>Mendon</li>
+    <li>Mexican Hat</li>
+    <li>Midvale</li>
+    <li>Midway</li>
+    <li>Milford</li>
+    <li>Millville</li>
+    <li>Minersville</li>
+    <li>Moab</li>
+    <li>Modena</li>
+    <li>Mona</li>
+    <li>Monroe</li>
+    <li>Montezuma Creek</li>
+    <li>Monticello</li>
+    <li>Morgan</li>
+    <li>Moroni</li>
+    <li>Mount Carmel</li>
+    <li>Mount Pleasant</li>
+    <li>Mountain Home</li>
+    <li>Myton</li>
+    <li>Neola</li>
+    <li>Nephi</li>
+    <li>New Harmony</li>
+    <li>Newcastle</li>
+    <li>Newton</li>
+    <li>North Salt Lake</li>
+    <li>Oak City</li>
+    <li>Oakley</li>
+    <li>Oasis</li>
+    <li>Ogden</li>
+    <li>Orangeville</li>
+    <li>Orderville</li>
+    <li>Orem</li>
+    <li>Panguitch</li>
+    <li>Paradise</li>
+    <li>Paragonah</li>
+    <li>Park City</li>
+    <li>Park Valley</li>
+    <li>Parowan</li>
+    <li>Payson</li>
+    <li>Peoa</li>
+    <li>Pine Valley</li>
+    <li>Pleasant Grove</li>
+    <li>Plymouth</li>
+    <li>Portage</li>
+    <li>Price</li>
+    <li>Providence</li>
+    <li>Provo</li>
+    <li>Randlett</li>
+    <li>Randolph</li>
+    <li>Redmond</li>
+    <li>Richfield</li>
+    <li>Richmond</li>
+    <li>Riverside</li>
+    <li>Riverton</li>
+    <li>Rockville</li>
+    <li>Roosevelt</li>
+    <li>Roy</li>
+    <li>Rush Valley</li>
+    <li>Saint George</li>
+    <li>Salem</li>
+    <li>Salina</li>
+    <li>Salt Lake City</li>
+    <li>Sandy</li>
+    <li>Santa Clara</li>
+    <li>Santaquin</li>
+    <li>Scipio</li>
+    <li>Sevier</li>
+    <li>Sigurd</li>
+    <li>Smithfield</li>
+    <li>Snowville</li>
+    <li>South Jordan</li>
+    <li>South Willard</li>
+    <li>Spanish Fork</li>
+    <li>Spring City</li>
+    <li>Springdale</li>
+    <li>Springville</li>
+    <li>Sterling</li>
+    <li>Stockton</li>
+    <li>Summit</li>
+    <li>Sunnyside</li>
+    <li>Syracuse</li>
+    <li>Tabiona</li>
+    <li>Talmage</li>
+    <li>Teasdale</li>
+    <li>Thompson</li>
+    <li>Tooele</li>
+    <li>Toquerville</li>
+    <li>Torrey</li>
+    <li>Tremonton</li>
+    <li>Trenton</li>
+    <li>Tridell</li>
+    <li>Tropic</li>
+    <li>Vernal</li>
+    <li>Vernon</li>
+    <li>Veyo</li>
+    <li>Virgin</li>
+    <li>Wales</li>
+    <li>Wallsburg</li>
+    <li>Washington</li>
+    <li>Wellington</li>
+    <li>Wellsville</li>
+    <li>Wendover</li>
+    <li>West Jordan</li>
+    <li>Whiterocks</li>
+    <li>Willard</li>
+    <li>Woodruff</li>
+    <li>Woods Cross</li>
+  </ul>
+  <script type="text/javascript">
+    var prefix = document.getElementById("prefix");
+    prefix.focus();
+    var cities = document.getElementById("city-list").children;
+    var markMatches = function() {
+      for (var i=0; i<cities.length; i++) {
+        cities[i].className = "";
+      }
+      var thePrefix = prefix.value;
+      if (thePrefix.length > 0) {
+        for (var i=0; i<cities.length; i++) {
+          if (cities[i].textContent.startsWith(thePrefix)) {
+            cities[i].className = "match";
+          }
+        }
+      }
+    }
+  prefix.addEventListener("keyup", markMatches);
+  </script>
+</body>
+</html>
+<!-- .,&s+.*+<li>&</li>+ -->

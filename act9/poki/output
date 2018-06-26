@@ -1,0 +1,133 @@
+nohup: ignoring input
+[0mGET / [36m304 [0m6.642 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m3.525 ms - 1345[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.751 ms - -[0m
+In Pokemon
+[0mGET /pokemon [36m304 [0m4.641 ms - -[0m
+In politics
+[0mGET /politics [32m200 [0m750.233 ms - 124147[0m
+In politics
+[0mGET /politics [0m- [0m- ms - -[0m
+In politics
+[0mGET /politics [32m200 [0m614.938 ms - 124147[0m
+In politics
+[0mGET /politics [32m200 [0m647.764 ms - 124147[0m
+[0mGET / [32m200 [0m1.149 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m305.550 ms - 1105[0m
+[0mGET /favicon.ico [33m404 [0m38.842 ms - 1105[0m
+[0mGET / [32m200 [0m5.563 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m42.299 ms - 1105[0m
+[0mGET / [32m200 [0m1.107 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m37.488 ms - 1105[0m
+[0mGET / [32m200 [0m0.665 ms - 1027[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.852 ms - 548[0m
+[0mGET /javascripts/app.js [32m200 [0m0.683 ms - 1345[0m
+In Pokemon
+[0mGET /pokemon [32m200 [0m1.780 ms - 645[0m
+In politics
+[0mGET /politics [32m200 [0m1241.894 ms - 124147[0m
+[0mGET /favicon.ico [33m404 [0m51.027 ms - 1105[0m
+[0mGET / [32m200 [0m0.708 ms - 1027[0m
+[0mGET / [32m200 [0m0.472 ms - 1027[0m
+[0mGET /javascripts/app.js [32m200 [0m0.511 ms - 1345[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.471 ms - 548[0m
+In Pokemon
+[0mGET /pokemon [32m200 [0m1.780 ms - 645[0m
+In politics
+[0mGET /favicon.ico [33m404 [0m31.876 ms - 1105[0m
+[0mGET /politics [32m200 [0m1352.368 ms - 124147[0m
+[0mGET / [32m200 [0m0.488 ms - 1027[0m
+In Pokemon Post
+{ name: 'Charizard',
+  avatarUrl: 'https://www.google.com/search?q=charizard+gif&rlz=1CDGOYI_enUS730US730&oq=charizard+gif&aqs=chrome..69i57j0l3.4711j0j8&hl=en-US&sourceid=chrome-mobile&ie=UTF-8#imgrc=a2xl2_DtfkaBHM:' }
+[0mPOST /pokemon [32m200 [0m15.570 ms - -[0m
+In Pokemon
+[0mGET /pokemon [32m200 [0m0.503 ms - 862[0m
+In Pokemon Post
+{ name: 'Charizard',
+  avatarUrl: 'https://www.google.com/search?q=charizard+gif&rlz=1CDGOYI_enUS730US730&oq=charizard+gif&aqs=chrome..69i57j0l3.4711j0j8&hl=en-US&sourceid=chrome-mobile&ie=UTF-8#imgrc=a2xl2_DtfkaBHM:' }
+[0mPOST /pokemon [32m200 [0m1.277 ms - -[0m
+In Pokemon
+[0mGET /pokemon [32m200 [0m0.687 ms - 1079[0m
+In Pokemon Post
+{ name: 'Charizard',
+  avatarUrl: 'https://media.tenor.co/images/24b80cc4de93424e42686799705b15ea/raw' }
+[0mPOST /pokemon [32m200 [0m1.507 ms - -[0m
+In Pokemon
+[0mGET /pokemon [32m200 [0m0.457 ms - 1181[0m
+[0mGET / [32m200 [0m0.548 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m23.086 ms - 1105[0m
+[0mGET /favicon.ico [33m404 [0m18.785 ms - 1105[0m
+[0mGET / [32m200 [0m0.461 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m12.396 ms - 1105[0m
+[0mGET / [32m200 [0m0.464 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m12.272 ms - 1105[0m
+[0mGET / [32m200 [0m1.702 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m11.928 ms - 1105[0m
+[0mGET / [36m304 [0m0.756 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.363 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.194 ms - -[0m
+In Pokemon
+[0mGET /pokemon [32m200 [0m0.458 ms - 1181[0m
+In politics
+[0mGET /favicon.ico [33m404 [0m11.500 ms - 1105[0m
+[0mGET /politics [32m200 [0m729.107 ms - 124147[0m
+[0mGET /index.html [32m200 [0m0.500 ms - 1027[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.444 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.462 ms - -[0m
+In Pokemon
+[0mGET /pokemon [36m304 [0m1.392 ms - -[0m
+In politics
+[0mGET /politics [32m200 [0m1334.258 ms - 124147[0m
+[0mGET / [32m200 [0m1.015 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m7.029 ms - 1105[0m
+[0mGET / [32m200 [0m0.484 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m9.497 ms - 1105[0m
+[0mGET / [32m200 [0m0.501 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m5.574 ms - 1105[0m
+[0mGET / [32m200 [0m0.445 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m7.324 ms - 1105[0m
+[0mGET /favicon.ico [33m404 [0m9.496 ms - 1105[0m
+[0mGET / [32m200 [0m0.444 ms - 1027[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.031 ms - 548[0m
+[0mGET /javascripts/app.js [32m200 [0m2.233 ms - 1345[0m
+In Pokemon
+[0mGET /pokemon [32m200 [0m0.432 ms - 1181[0m
+In politics
+[0mGET /favicon.ico [33m404 [0m8.395 ms - 1105[0m
+[0mGET /politics [32m200 [0m574.280 ms - 124147[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.325 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.292 ms - -[0m
+[0mPOST /comment [33m404 [0m6.649 ms - 1105[0m
+[0mGET / [32m200 [0m3.411 ms - 1027[0m
+[0mGET /javascripts/app.js [32m200 [0m2.197 ms - 1345[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.725 ms - 548[0m
+In politics
+In Pokemon
+[0mGET /pokemon [32m200 [0m3.290 ms - 1181[0m
+[0mGET /favicon.ico [33m404 [0m11.015 ms - 1105[0m
+[0mGET /politics [32m200 [0m579.472 ms - 124147[0m
+[0mGET / [32m200 [0m1.056 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m16.689 ms - 1105[0m
+[0mGET /favicon.ico [33m404 [0m10.231 ms - 1105[0m
+[0mGET / [32m200 [0m5.486 ms - 1027[0m
+[0mGET / [32m200 [0m1.788 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m4.725 ms - 1105[0m
+[0mGET / [32m200 [0m1.885 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m7.986 ms - 1105[0m
+[0mGET /favicon.ico [33m404 [0m6.134 ms - 1105[0m
+[0mGET / [32m200 [0m0.439 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m4.187 ms - 1105[0m
+[0mGET /favicon.ico [33m404 [0m4.501 ms - 1105[0m
+[0mGET / [32m200 [0m0.475 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m5.878 ms - 1105[0m
+[0mGET / [32m200 [0m0.434 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m3.996 ms - 1105[0m
+[0mGET /favicon.ico [33m404 [0m7.772 ms - 1105[0m
+[0mGET /favicon.ico [33m404 [0m6.633 ms - 1105[0m
+[0mGET / [32m200 [0m2.244 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m4.501 ms - 1105[0m
+[0mGET /favicon.ico [33m404 [0m8.617 ms - 1105[0m
+[0mGET / [32m200 [0m0.463 ms - 1027[0m
+[0mGET /favicon.ico [33m404 [0m6.065 ms - 1105[0m
+[0mPOST /comments [33m404 [0m9.894 ms - 1105[0m

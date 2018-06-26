@@ -1,0 +1,81 @@
+<html>
+<head>
+  <title>Conference</title>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+  <script src="javascripts/app.js"></script>
+  <link rel="stylesheet" type="text/css" href="./stylesheets/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="./stylesheets/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="./stylesheets/demo.css">
+  <link rel="stylesheet" type="text/css" href="./stylesheets/set1.css">
+  <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+ </head>
+<body ng-app="car" class="bgcolor-4" ng-controller="MainCtrl">
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+<div class="page-header"> 
+  <h1>Conference Reading List</h1>
+</div>
+<section class="bgcolor-4">
+  <form ng-submit="addCar()" style = "margin-top30px;">
+
+<span class="input input--kuro">
+    <input class="input__field input__field--kuro" id="input-9" type="text" ng-model="speakerFormContent"/>
+    <label class="input__label input__label--kuro" for="input-9">
+      <span class="input__label-content input__label-content--kuro">Speaker</span>
+    </label>
+</span>
+
+<span class="input input--kuro">    
+    <input class="input__field input__field--kuro" id="input-7" type="text" ng-model="sessionFormContent"/>
+  <label class="input__label input__label--kuro" for="input-7">
+<span class="input__label-content input__label-content--kuro">Session</span>
+  </label>
+</span>
+
+<span class="input input--kuro">    
+    <input class="input__field input__field--kuro" id="input-7" type="text" ng-model="titleFormContent"/>
+  <label class="input__label input__label--kuro" for="input-7">
+<span class="input__label-content input__label-content--kuro">Title</span>
+  </label>
+</span>
+
+<span class="input input--kuro">
+    <input class="input__field input__field--kuro" id="input-8" type="text" ng-model="pictureFormContent"/>
+    <label class="input__label input__label--kuro" for="input-8">
+      <span class="input__label-content input__label-content--kuro">PictureURL</span>
+    </label>
+</span>
+    
+<button class="input input--kuro" type="submit">Add Talk</button>
+  </form>
+
+  <div>
+    {{test}}
+  </div>
+  <div ng-repeat="car in cars | orderBy: ['-upvotes','-session']">
+    <div class="cars">
+   <div class="left">
+    <img ng-src="{{car.url}}">
+   <div class="talkbutton">
+    <button class="thumbs-up" ng-click="incrementUpvotes(car)">Vote</button> 
+    <button class="remove" ng-click="delete(car)">Remove</button>
+   </div>
+   </div>
+   <div class="right">
+   <div class="info"> 
+    <h2 class="makes"> {{car.speaker}}</h2>
+   </div><div class="info">
+    <h3 class="models">Title: </h3><h4 class="models"> {{car.title}}</h4>
+   </div><div class="info">
+    <h3 class="makes">Session: </h3><h4 class="makes"> {{car.session}}</h4> 
+   </div><div class="info"> 
+    <h3 class="upvotes">Upvotes: </h3><h4 class="upvotes"> {{car.upvotes}}</h4>
+   </div>
+   </div>
+  </div>
+  </div>
+</section>
+</div>
+</div>
+</body>
+</html>
